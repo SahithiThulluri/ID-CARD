@@ -1,0 +1,111 @@
+.id-container{
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    border : 1px solid black;
+    width : 30%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+   
+}
+body{
+    display: flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+}
+.college{
+    text-align : center;
+    color : red;
+}
+.city{
+    text-align: center;
+    justify-content: center;
+    color : palevioletred;
+    position: relative;
+    bottom : 5%;
+}
+.img{
+    height : 10vh;
+    width : 4vw;
+    margin-left: 80%;
+    position: relative;
+    bottom: 8%;
+}
+.img1{
+    height: 10vh;
+    transform: rotate(90deg);
+    margin-bottom: 10%;
+}
+.img2{
+    height: 25vh;
+    width: 11vw;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    position: relative;
+    right:15%;
+}
+.num{
+    transform: rotate(270deg);
+    position: relative;
+    margin-bottom: 10%;
+    right: 18%;
+}
+.year{
+    color: palevioletred;
+    transform: rotate(270deg);
+    position: relative;
+    bottom: 7%;
+    right: 8%;
+}
+.name{
+    color: rgb(0, 5, 139);
+    position: relative;
+    bottom: 7%;
+}
+.course{
+    color: red;
+    text-align: center; 
+}
+h4{
+    margin-left: 55%;
+    margin-top: 12%;
+}
+.sign{
+    height: 5vh;
+    width: 5vw;
+    position: relative;
+    left: 72%;
+}
+.section{
+    display: flex;
+    width: 130%;
+    justify-content : center;
+    align-items : center;  
+    position: relative;
+    bottom: 5%;
+}
+.section1{
+    display: flex;
+    width: 75%;
+    position: relative;
+    bottom: 3%;
+}
+footer{
+    background-color: rgb(123, 0, 255);
+    color: white;
+    width: 100%;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;  
+}
+span{
+    color: skyblue;
+    position: relative;
+    left: 15%;
+}
+.day{
+    position: relative;
+    left: 5%;  
+}
